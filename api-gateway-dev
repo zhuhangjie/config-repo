@@ -9,7 +9,7 @@ zuul:
     #product: /myProduct/**
     # type is set
   ignored-patterns:
-    - /**/product/list
+    #- /**/product/list
 management:
   security:
     enabled: false
