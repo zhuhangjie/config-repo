@@ -5,8 +5,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: Zhuhangjie_1
-    url: jdbc:mysql://106.14.3.142/sell?characterEncoding=utf-8&useSSL=false
+    password: 123456
+    url: jdbc:mysql://192.168.65.130/sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
 env:
