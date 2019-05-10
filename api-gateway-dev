@@ -2,8 +2,8 @@ zuul:
   routes:
     #/myProduct/product/list -> /product/product/list
     myProduct:
-    path: /myProduct/**
-    serviceId: product
+      path: /myProduct/**
+      serviceId: product
     sensitiveHeaders:
     ##or anther Method:serviceId:path
     #product: /myProduct/**
