@@ -1,4 +1,6 @@
 zuul:
+  #All service could take cookie
+  sensitive-headers: 
   routes:
     #/myProduct/product/list -> /product/product/list
     myProduct:
