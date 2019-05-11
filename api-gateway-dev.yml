@@ -4,7 +4,7 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
-    sensitiveHeaders:
+      sensitiveHeaders:
     ##or anther Method:serviceId:path
     #product: /myProduct/**
     # type is set
