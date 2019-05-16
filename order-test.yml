@@ -17,5 +17,10 @@ spring:
     port: 6379
   jpa:
     show-sql: true
-env:
-  test1
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 10000
+        loggerLevel: basic
