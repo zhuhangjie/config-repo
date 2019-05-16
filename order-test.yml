@@ -24,4 +24,4 @@ feign:
         connectTimeout: 10000
         readTimeout: 10000
         loggerLevel: basic
-env: test1
+env: test2
