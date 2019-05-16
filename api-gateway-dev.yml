@@ -19,11 +19,7 @@ spring:
   redis:
     host: 106.14.3.142
     port: 6379
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 5000
+ribbon:
+  ReadTimeout: 5000
+  SocketTimeout: 5000
 
